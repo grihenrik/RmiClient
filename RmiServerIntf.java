@@ -12,6 +12,6 @@ public interface RmiServerIntf extends Remote {
     public String getMessage() throws RemoteException;
     public String getMessage(String userQuery) throws RemoteException;
     public String addMessage(String[] userQuery) throws RemoteException;
-    public String updateMessage(String[] userQuery)throws RemoteException;
+    public String updateMessage(String[] userQuery) throws RemoteException;
     public String deleteMessage(String[] userQuery) throws RemoteException;
 }
