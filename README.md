@@ -1,0 +1,2 @@
+# RmiClient
+Java RMI client
